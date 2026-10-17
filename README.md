@@ -1,5 +1,7 @@
 # Tekken 6 Native Online (Xbox 360)
 
+This is a forked version to fix the "unimplemented function mscms.dll.WcsCreateIccProfile" error i was getting when running through Lutris.
+
 Tekken 6 for Xbox 360 running natively on Windows (recompiled, no emulator) with rollback netcode (GGPO principle) and
 an online lobby in the launcher.
 
