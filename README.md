@@ -1,6 +1,35 @@
-# Tekken 6 Native Online (Xbox 360)
+# Linux Notes
+- This is a forked version to fix the "unimplemented function mscms.dll.WcsCreateIccProfile" error i was getting when running through Lutris.
+- If you update the OG launcher you will probably have to reapply the DLL file.
+- Ensure your Lutris is update by checking the About Lutris section of Lutris. You should be on 0.5.22 or later.
 
-This is a forked version to fix the "unimplemented function mscms.dll.WcsCreateIccProfile" error i was getting when running through Lutris.
+# Steamdeck
+- If the mouse is not working, right click game in Lutris -> configure -> Runner Options -> Enable advanced settings -> Change Mouse Warp Overdrive to Force.
+- Using the touch screen probably gonna just kill the application, use the track pads.
+
+# Adding to Lutris
+- Add locally installed game
+- Game info
+  - Set Name to whatever you want
+  - Set Runner to Wine (Runs Windows games)
+- Game Options
+  - Set Executable to Tekken6NativeOnline.exe
+  - Create a new folder somewhere and set Wine Prefix to that folder
+- Runner Options
+  - Wine version should be GE-Proton Latest
+  - The rest can stay enabled
+
+# Issues
+
+You can
+- DM me at aoba on discord
+- @aoba_tk on Twitter or respond to the Twitter thread.
+
+I'll do my best to provide help for the patch but I have no input on the original project.
+
+-----------------------------------------
+
+# Tekken 6 Native Online (Xbox 360)
 
 Tekken 6 for Xbox 360 running natively on Windows (recompiled, no emulator) with rollback netcode (GGPO principle) and
 an online lobby in the launcher.
