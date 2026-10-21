@@ -17,6 +17,16 @@
 - Runner Options
   - Wine version should be GE-Proton Latest
   - The rest can stay enabled
+ 
+# Installing the Visual C++ runtime
+
+After setting Tekken 6 for Lutris
+- Select Tekken 6
+- Click the wine glass at the bottom of the Lutris launcher
+- Select "Run EXE inside Wine prefix"
+- Navigate to the Tekken6NativeOnline folder
+- Select vc_redist.x64.exe
+- Follow the instructions
 
 # Troubleshooting
 
@@ -31,6 +41,8 @@ You can
 I'll do my best to provide help for the patch but I have no input on the original project.
 
 This was tested on both a Steamdeck running SteamOS, and Bazzite on my PC.
+
+
 
 -----------------------------------------
 
