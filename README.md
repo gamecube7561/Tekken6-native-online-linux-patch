@@ -1,7 +1,6 @@
 # Linux Notes
 - This is a forked version to fix the "unimplemented function mscms.dll.WcsCreateIccProfile" error i was getting when running through Lutris.
 - If you update the OG launcher you will probably have to reapply the DLL file.
-- Ensure your Lutris is update by checking the About Lutris section of Lutris. You should be on 0.5.22 or later.
 
 # Steamdeck
 - If the mouse is not working, right click game in Lutris -> configure -> Runner Options -> Enable advanced settings -> Change Mouse Warp Overdrive to Force.
@@ -19,13 +18,19 @@
   - Wine version should be GE-Proton Latest
   - The rest can stay enabled
 
-# Issues
+# Troubleshooting
+
+- Update Lutris to ensure you are using the latest version (0.5.22 or later).
+- Update your OS.
+- Check your game run logs.
 
 You can
-- DM me at aoba on discord
+- DM me at aoba on discord.
 - @aoba_tk on Twitter or respond to the Twitter thread.
 
 I'll do my best to provide help for the patch but I have no input on the original project.
+
+This was tested on both a Steamdeck running SteamOS, and Bazzite on my PC.
 
 -----------------------------------------
 
